@@ -24,6 +24,18 @@
             img {
                 max-width: 100px;
                 height: auto;
+                z-index: 10;
+            }
+            .assClass {
+                display: none;
+                position: fixed;
+                left: 0;
+                top: 0;
+                margin-left: 45%;
+                margin-right: 45%;
+                margin-top: 40%;
+                width: 10%;
+                z-index: 2; /* Sit on top */
             }
         </style>
     </head>
@@ -56,6 +68,9 @@
                     <button>Cookie Settings</button>
                 </div>
             </div>
+        </div>
+        <div class="assClass">
+            <img id="ass" src="ass.jpg">
         </div>
     </body>
 </html>
